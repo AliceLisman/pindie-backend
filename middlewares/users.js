@@ -1,6 +1,5 @@
 // Файл middlewares/users.js
 
-// Импортируем модель
 const users = require('../models/user');
 
 const findAllUsers = async (req, res, next) => {
@@ -10,4 +9,4 @@ const findAllUsers = async (req, res, next) => {
 }
 
 // Экспортируем функцию поиска всех пользователей
-module.exports = findAllUsers;
+module.exports = findAllUsers; 
